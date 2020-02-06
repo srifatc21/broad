@@ -1,0 +1,833 @@
+/*========= Reusable Css =========*/
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+h2:after {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: .2rem;
+    background: #004a8e;
+    margin: 1rem auto;
+}
+
+h5 {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+h5:after {
+    content: '';
+    height: .1rem;
+    width: 4rem;
+    background: #0071bc;
+    display: block;
+    margin-top: .8rem;
+}
+
+#gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #0071bc;
+    bottom: 1rem;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 3rem;
+    color: #212529;
+    border-radius: 5px;
+}
+
+.breadcrumb {
+    margin: 0 0 1rem 0;
+    padding: 1.5rem 0;
+}
+
+.breadcrumb-div,
+.breadcrumb {
+    background: #0071bc;
+
+}
+
+.breadcrumb-div .breadcrumb-item a,
+.active {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "≫";
+    color: #fff;
+}
+
+.custom-btn {
+    background-color: #0071bc;
+    border: #0071bc;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 50px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.custom-btn:hover {
+    background: #fbae35;
+    color: black;
+    padding: 16px 30px;
+    border-radius: 18px;
+}
+
+.accordion-btn:hover {
+    text-decoration: none;
+}
+
+
+.insurance_body .row .col-sm-8 {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.insurance_body .row .col-sm-4 {
+    margin-left: 0;
+    margin-right: -15px;
+}
+
+@media (max-width: 767.98px) {
+    .row .col {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+}
+
+
+/* ================================================*/
+/*====================== Home Page =================*/
+/* ================================================*/
+
+
+/*========= Header CSS =========*/
+
+.head-text {
+    background-color: #072760;
+    padding: 0;
+}
+
+.head-text .text-primary{
+    color: white !important;
+}
+
+.head-text li a{
+    color: white;
+}
+
+.head-text li a:hover{
+    color: deepskyblue;
+}
+
+.head-text span a{
+    color: white;
+}
+
+.head-text span a:hover{
+    color: deepskyblue;
+}
+
+.service:hover{
+    transform: scale(1.02);
+}
+
+.service-text:hover{
+    color: white;
+}
+
+.navbar a{
+    font-size: 18px;
+    /*padding-top: 10px;*/
+    padding-bottom: 0px;
+}
+
+.navbar ul li a:hover{
+    color: deepskyblue !important;
+}
+
+.navbar-custom ul li a:hover {
+    color: deepskyblue;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.navbar-custom ul .active {
+    color: #0071bc !important;
+}
+
+.navbar-custom ul li .nav-link {
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.navbar-custom{
+    background-color: #072760 !important;
+}
+
+.navbar-custom.scrolled {
+    -webkit-transition: 750ms ease;
+    transition: 750ms ease;
+    background-color: #072760 !important;
+    color: #ffffff !important;
+}
+
+.navbar-custom .navbar-nav .nav-link .menu-down-icon {
+    display: block;
+    text-align: center;
+    margin-top: -5px;
+
+}
+
+.dropdown-menu {
+    background: #ecf0f1;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown .dropdown-item {
+    color: #34495e !important;
+
+}
+
+.navbar-custom .dropdown-toggle:after {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    nav .img {
+        display: none;
+    }
+
+    .sm-header {
+        display: none;
+    }
+
+    .header-sm-form {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .img {}
+
+    .head-text .nav-header {
+        display: none;
+    }
+
+    .nav-header-sm ul {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .navbar-custom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+
+/*========= Banner Section CSS =========*/
+
+
+.banner .col-lg-9,
+.col-lg-3 {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+
+
+
+/*========= Product Section CSS =========*/
+
+.hbtn{
+    background-color: #f5770a;
+    color: #ffffff;
+}
+
+.sm-title .hbtn:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #23e8ba;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.sm-title .btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*========= Request Form CSS =========*/
+
+.request-form select {
+    padding: 1rem;
+    background: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.request-form input {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+
+/*========= Footer Section CSS =========*/
+
+.footer {
+    background-color: #004a8e;
+    padding: 4rem 0;
+}
+
+.footer a:hover{
+    color: lightseagreen;
+}
+
+.footer h5:after {
+    content: '';
+    height: .1rem;
+    width: 4.5rem;
+    background: white;
+    display: block;
+    margin-top: .8rem;
+}
+
+/*For Cookies Message*/
+span.cc-message{
+    color: white;
+}
+/*------------------*/
+
+.footer a,
+span,
+address {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-text {
+    font-size: .7rem;
+    text-align: center;
+}
+
+.footer-bottom{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.footer-bottom .text-primary{
+    color: white !important;
+}
+
+.footer .footer-bottom ul li i {
+    font-size: 3rem;
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+
+    .footer .number {
+        padding: 1rem 4rem;
+    }
+
+
+    h5::after {
+        content: '';
+        height: .1rem;
+        width: 4.5rem;
+        background: white;
+        display: block;
+        margin: 1rem auto;
+    }
+}
+
+
+/* ================================================*/
+/*====================== QUOTATION FORM =================*/
+/* ================================================*/
+
+
+/* ================================================*/
+/*====================== Car Insurance FORM =================*/
+/* ================================================*/
+
+.car_insurance_form .car_form_head {
+    background: #0071bc;
+    padding: .5rem 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+
+}
+
+.car_insurance_form .car_form_head::after {
+    content: '';
+    border-left: 18px solid #0071bc;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 99.8%;
+    z-index: 20;
+}
+
+
+
+.previous {
+    background: #3491C4 !important;
+}
+
+.car_insurance_form .previous::after {
+    content: '';
+    border-left: 18px solid #3491C4;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 99.8%;
+    z-index: 20;
+}
+
+.vehicle .previous {
+    background: #fbb03b !important;
+}
+
+.vehicle .car_insurance_form .previous::after {
+    content: '';
+    border-left: 18px solid #fbb03b;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 99.8%;
+    z-index: 20;
+}
+
+.vehicle .previous {
+    background: #fbb03b !important;
+}
+
+.vehicle .car_insurance_form .previous::after {
+    content: '';
+    border-left: 18px solid #fbb03b;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 99.8%;
+    z-index: 20;
+}
+
+
+.car_insurance_form .car_form_head_bottom {
+    background: #fbb03b;
+    position: relative;
+    padding: .5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.car_insurance_form .car_form_head_bottom::before {
+    position: absolute;
+    content: '';
+    border-left: 18px solid #fff;
+    border-top: 23px solid transparent;
+    border-bottom: 18px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.car_insurance_form .car_form_head_bottom::after {
+    position: absolute;
+    content: '';
+    border-left: 18px solid #fbb03b;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 99.8%;
+    z-index: 20;
+}
+
+.car_insurance_form .last::after {
+    content: '';
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 20;
+}
+
+.invalid-feedback,
+.invalid-feedback label {
+    font-size: 1rem;
+}
+
+
+.custom-control-input.is-invalid~.custom-control-label::before, .was-validated .custom-control-input:invalid~.custom-control-label::before {
+    border-color: #495057;
+}
+.custom-control-input.is-invalid~.custom-control-label, .was-validated .custom-control-input:invalid~.custom-control-label {
+    color: #495057;
+}
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
+    color: #495057;
+}
+
+.custom-control-input.is-valid:checked~.custom-control-label::before, .was-validated .custom-control-input:valid:checked~.custom-control-label::before {
+    border-color: #495057;
+    background-color: #495057;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-image: none;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label {
+    color: #495057;
+}
+
+/* ================================================*/
+/*============= Motor Trade Insurance FORM ============*/
+/* ================================================*/
+
+.Motor_form {
+    padding: 6rem 0 14rem 0;
+}
+
+.Motor_form h2::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: .2rem;
+    background: #004a8e;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+
+/* ================================================*/
+/*====================== About Section =================*/
+/* ================================================*/
+
+.about-bottom {
+    background-image: url(../img/van-insurance-01-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.about-bottom h2 {
+    color: white;
+}
+
+.about-bottom h2::after {
+    background: white;
+}
+
+.about-bottom .icon-bg {
+    background: #0071bc;
+    border-radius: 50%;
+    position: relative;
+    width: 100%;
+
+}
+
+.about-bottom .icon-bg::after {
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+}
+
+.about-bottom .icon-bg .icon {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -32px 0 0 -40px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.about-bottom .row .col {
+    width: 20%;
+}
+
+.about-bottom .row .col:nth-child(2) .icon {
+    left: 55%;
+}
+
+.about-bottom .row .col:nth-child(4) .icon {
+    left: 44%;
+}
+
+@media (max-width: 991px) {
+    .about-bottom .icon-bg .icon {
+        font-size: 3rem;
+        top: 58%;
+        left: 63%;
+
+    }
+
+    .about-bottom .row .col:nth-child(2) .icon {
+        left: 70%;
+    }
+
+    .about-bottom .row .col:nth-child(4) .icon {
+        left: 58%;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .about-bottom .icon-bg {
+        width: 30%;
+        margin: auto;
+    }
+
+    .about-bottom .row .col {
+        width: 100%;
+    }
+
+    .about-bottom .row {
+        display: block;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .about-bottom .icon-bg .icon {
+        font-size: 3rem;
+        top: 58%;
+        left: 62%;
+
+    }
+
+    .about-bottom .row .col:nth-child(2) .icon {
+        left: 65%;
+    }
+
+    .about-bottom .row .col:nth-child(4) .icon {
+        left: 58%;
+    }
+
+}
+
+
+/* ================================================*/
+/*================== Insurance Section =============*/
+/* ================================================*/
+
+/* ================================================*/
+/*================ Car Insurance Section ===========*/
+/* ================================================*/
+
+.car_insurance {
+    background-image: url(../img/insurance/car-insurance-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.car_insurance h2 {
+    color: white;
+    padding-top: 4rem;
+
+}
+
+.car_insurance h2::after {
+    background: white;
+}
+
+
+
+
+
+/* ================================================*/
+/*================ Van Insurance Section ===========*/
+/* ================================================*/
+
+
+.van_insurance {
+    background-image: url(../img/insurance/van-insurance-01-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.van_insurance h2 {
+    color: white;
+    padding-top: 4rem;
+
+}
+
+.van_insurance h2::after {
+    background: white;
+}
+
+
+/* ================================================*/
+/*============ Motor Trade Insurance Section =======*/
+/* ================================================*/
+.motor_insurance {
+    background-image: url(../img/insurance/Motor-Trader-Banner01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.motor_insurance h2 {
+    color: white;
+    padding-top: 4rem;
+
+}
+
+.motor_insurance h2::after {
+    background: white;
+}
+
+/* ================================================*/
+/*============ Business Insurance Section =======*/
+/* ================================================*/
+
+.business_insurance {
+    background-image: url(../img/insurance/Business-Insurance.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.business_insurance h2 {
+    color: white;
+    padding-top: 4rem;
+
+}
+
+.business_insurance h2::after {
+    background: white;
+}
+
+/* ================================================*/
+/*============ Home Insurance Section =======*/
+/* ================================================*/
+
+.home_insurance {
+    background-image: url(../img/insurance/home-insurance.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.home_insurance h2 {
+    color: white;
+    padding-top: 4rem;
+
+}
+
+.home_insurance h2::after {
+    background: white;
+}
+
+
+/* ================================================*/
+/*============ Home Insurance Section =======*/
+/* ================================================*/
+
+.accident_management {
+    background-image: url(../img/insurance/accident-management.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.accident_management h2 {
+    color: white;
+    padding-top: 4rem;
+
+}
+
+.accident_management h2::after {
+    background: white;
+}
