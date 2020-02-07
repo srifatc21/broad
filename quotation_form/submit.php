@@ -4,7 +4,7 @@
 if (isset($_POST['submitCar'])){
     $to='quote@broadinsurance.co.uk';
     $subject='Car Quotation Form';
-    $headers="From: gadgetshopbd360@gmail.com";
+    $headers="From: gadgetshopbd360@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
@@ -109,7 +109,7 @@ if (isset($_POST['submitCar'])){
 if (isset($_POST['submitVan'])){
     $to='s.rifat1993@gmail.com';
     $subject='Van Quotation Form';
-    $headers="From: gadgetshopbd360@gmail.com";
+    $headers="From: gadgetshopbd360@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
@@ -151,11 +151,19 @@ if (isset($_POST['submitVan'])){
     $message .= '<p><b>Use of any other vehicle? :</b> '.$_POST['otherVehicles'].'</p>';
     $message .= '<p><b>Non motoring criminal convictions? :</b> '.$_POST['criminalConvictions'].'</p>';
     $message .= '<p><b>Any motor accident (fault or non fault) or claims (whether claim made or not) in the last 5 years? :</b> '.$_POST['DVLA'].'</p>';
-    $message .= '<p><b>Any motor convictions fixed penaltist or disqualification in the last 5 years? :</b> '.$_POST['driverDetails'].'</p>';
-    $message .= '<br><p><b>Motor Accident 1</b></p>';
-    $message .= '<p><b>Motor Accident 2</b></p>';
-    $message .= '<p><b>Motor Accident 3</b></p>';
-    $message .= '<p><b>Motor Accident 4</b></p>';
+    $message .= '<p><b>Any motor convictions fixed penalties or disqualification in the last 5 years? :</b> '.$_POST['driverDetails'].'</p>';
+
+    if ($_POST['DVLA'] == "Yes"){
+
+    }
+    else{
+        $message .= '<br><p><b>Motor Accident 1</b></p>';
+        $message .= '<p><b>Motor Accident 2</b></p>';
+        $message .= '<p><b>Motor Accident 3</b></p>';
+        $message .= '<p><b>Motor Accident 4</b></p>';
+    }
+
+
     $message .= '<br><p><b>Motor Conviction 1</b></p>';
     $message .= '<p><b>Motor Conviction 2</b></p>';
     $message .= '<p><b>Motor Conviction 3</b></p>';
@@ -194,7 +202,7 @@ if (isset($_POST['submitVan'])){
 if(isset($_POST['submitMotor'])){
     $to='s.rifat1993@gmail.com';
     $subject='Motor Trade Quotation Form';
-    $headers="From: gadgetshopbd360@gmail.com";
+    $headers="From: gadgetshopbd360@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
@@ -309,35 +317,36 @@ if(isset($_POST['submitMotor'])){
     <div class="container">
         <div class="nav-header pb-2">
             <div class="row">
-                <div class="col-md-3" style="border-right: #0071bc">
-                    <a class="" href="../index.html">
-                        <img src="../img/logo.png" class=" img-fluid d-inline-block" alt="Logo" style="margin-top: 15px;">
+                <div class="col-md-3">
+                    <a class="" href="../index.html" style="text-decoration: none;">
+                        <img src="../img/logo.png" width="400px" height="148px" class="img-fluid d-inline-block" alt="Logo" style="margin-top: 15px;">
+                        <!--<p style="padding-left: 10px; color: white; font-family: Georgia; font-weight: bold; font-size: 16px; letter-spacing: 6px;">Price &nbsp;&nbsp; Searcher</p>-->
                     </a>
                 </div>
-                <div class="col-md-3 mt-4">
-                    <div class="pl-1" style="margin-top: 35px;">
-                        <h3 style="color: #0071bc; font-family: 'Comic Sans MS'">Broad Searcher</h3>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="pt-5 font-weight-bold">
-                        <div class="font-weight-bold">
-                            <div class="d-flex justify-content-end" style="font-size: 20px">
-                                <span class="pr-2 text-primary">CALL US:</span>
-                                <span class="text-dark"><a href="tel:0330 113 0505" style="text-decoration: none; color: #000;">0330 113 0505 <i class="fas fa-phone"></i></a></span>
+                <div class="col-md-9 mt-4">
+                    <div class="row">
+                        <div class="offset-md-6 pt-2">
+                            <div class="font-weight-bold">
+                                <div class="d-flex justify-content-end" style="font-size: 20px">
+                                    <span class="pr-2 text-primary" style="cursor: default;">CALL US:</span>
+                                    <span class="text-dark"><a href="tel:0330 113 0505" style="text-decoration: none;">0330 113 0505 <i class="fas fa-phone"></i></a></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3" style="margin-top: 65px; padding-left: 45px">
-                    <div class="number pl-5">
-                        <ul class="list-unstyled d-flex">
-                            <li><a class="pr-2" href=""> <i class="fab fa-facebook-square fa-2x"></i></a></li>
+                        <div class="pl-2 pt-3">
+                            <h6 style="color: white; font-family: 'Comic Sans MS'; cursor: default">Independent Price Searcher To Compare Your Quotes</h6>
+                        </div>
+                        <div class="offset-md-3 pt-3">
+                            <div class="number pl-5" style="margin-left: 45px;">
+                                <ul class="list-unstyled d-flex">
+                                    <li><a class="pr-2" href=""> <i class="fab fa-facebook-square fa-2x"></i></a></li>
 
-                            <li><a class="pr-2" href=""><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                                    <li><a class="pr-2" href=""><i class="fab fa-twitter-square fa-2x"></i></a></li>
 
-                            <li><a  href=""> <i class="fab fa-linkedin fa-2x"></i></a></li>
-                        </ul>
+                                    <li><a  href=""> <i class="fab fa-linkedin fa-2x"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -345,7 +354,7 @@ if(isset($_POST['submitMotor'])){
     </div>
 </section>
 
-<section class="sm-header bg-dark text-light">
+<section class="sm-header" style="background-color: #072760; color: white;">
     <div class="container">
         <div class="nav-header-sm d-flex justify-content-between">
             <div class="pt-1">
@@ -364,10 +373,9 @@ if(isset($_POST['submitMotor'])){
     </div>
 </section>
 
-
-<nav class="navbar-custom navbar navbar-expand-lg bg-warning navbar-light  sticky-top font">
+<nav class="navbar-custom navbar navbar-expand-lg bg-warning navbar-dark sticky-top font">
     <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mb-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -404,14 +412,12 @@ if(isset($_POST['submitMotor'])){
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../contact_us.html">Contact Us
-                    </a>
+                    <a class="nav-link" href="../contact_us.html">Contact Us</a>
                 </li>
             </ul>
         </div>
         <a class="img" href=""> <img src="../img/logo.png"  alt="company logo" height="20%" width="100px"></a>
     </div>
-
 </nav>
 
 <div aria-label="breadcrumb" class="breadcrumb-div">
@@ -501,10 +507,10 @@ if(isset($_POST['submitMotor'])){
                     <div class="col-md-4 col-sm-12">
                         <ul class="list-unstyled text-light pt-4">
                             <li>
-                                <a href="terms_conditons.html">
+                                <a href="../terms_conditons.html">
                                     Terms & Conditions
                                 </a>|
-                                <a href="privacy_policy.html">
+                                <a href="../privacy_policy.html">
                                     Privacy Policy
                                 </a>
                             </li>
