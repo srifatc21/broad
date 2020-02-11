@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b328d6cc-23f9-4cbb-8145-acbd31adbf7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/insurances/business_insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/insurances/business_insurance.html" afterDir="false" />
-    </list>
+    <list default="true" id="b328d6cc-23f9-4cbb-8145-acbd31adbf7a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,7 +18,7 @@
     <session id="-2010411710">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="2" />
@@ -47,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="12" />
-          <entry key="html" value="254" />
+          <entry key="html" value="257" />
           <entry key="js" value="5" />
           <entry key="php" value="12" />
         </counts>
@@ -55,7 +53,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="12" />
-          <entry key="HTML" value="254" />
+          <entry key="HTML" value="257" />
           <entry key="JavaScript" value="5" />
           <entry key="PHP" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -82,20 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
               <caret line="566" column="21" selection-start-line="566" selection-start-column="12" selection-end-line="566" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/insurances/car_insurance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="193" column="599" selection-start-line="193" selection-start-column="599" selection-end-line="193" selection-end-column="599" />
             </state>
           </provider>
         </entry>
@@ -240,14 +229,14 @@
         <option value="$PROJECT_DIR$/quotation_form/submit.php" />
         <option value="$PROJECT_DIR$/quotation_form/business_insurance_quotation_form.html" />
         <option value="$PROJECT_DIR$/quotation_form/accident_management_quotation_form.html" />
-        <option value="$PROJECT_DIR$/insurances/car_insurance.html" />
-        <option value="$PROJECT_DIR$/insurances/motor_trade.html" />
-        <option value="$PROJECT_DIR$/insurances/van_insurance.html" />
         <option value="$PROJECT_DIR$/quotation_form/car_insurance_quotation_form.html" />
         <option value="$PROJECT_DIR$/quotation_form/home_insurance_quotation_form.html" />
         <option value="$PROJECT_DIR$/quotation_form/motor_trade_quotation_form.html" />
         <option value="$PROJECT_DIR$/quotation_form/van_insurance_quotation_form.html" />
         <option value="$PROJECT_DIR$/insurances/business_insurance.html" />
+        <option value="$PROJECT_DIR$/insurances/car_insurance.html" />
+        <option value="$PROJECT_DIR$/insurances/motor_trade.html" />
+        <option value="$PROJECT_DIR$/insurances/van_insurance.html" />
       </list>
     </option>
   </component>
@@ -363,16 +352,15 @@
       <workItem from="1581135727823" duration="238000" />
       <workItem from="1581170821955" duration="150000" />
       <workItem from="1581315003481" duration="1797000" />
-      <workItem from="1581392584013" duration="623000" />
+      <workItem from="1581392584013" duration="1264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336616000" />
+    <option name="totallyTimeSpent" value="337257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19299406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -483,27 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="559" column="9" selection-start-line="559" selection-start-column="9" selection-end-line="559" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurances/home_insurance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="436" column="9" selection-start-line="436" selection-start-column="9" selection-end-line="436" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurances/motor_trade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="193" column="599" selection-start-line="193" selection-start-column="599" selection-end-line="193" selection-end-column="599" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurances/van_insurance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="196" column="599" selection-start-line="196" selection-start-column="599" selection-end-line="196" selection-end-column="599" />
         </state>
       </provider>
     </entry>
@@ -647,17 +614,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/insurances/car_insurance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="193" column="614" selection-start-line="193" selection-start-column="614" selection-end-line="193" selection-end-column="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurances/home_insurance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="436" column="9" selection-start-line="436" selection-start-column="9" selection-end-line="436" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurances/motor_trade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="193" column="614" selection-start-line="193" selection-start-column="614" selection-end-line="193" selection-end-column="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurances/van_insurance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="196" column="614" selection-start-line="196" selection-start-column="614" selection-end-line="196" selection-end-column="614" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="566" column="21" selection-start-line="566" selection-start-column="12" selection-end-line="566" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurances/car_insurance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="193" column="599" selection-start-line="193" selection-start-column="599" selection-end-line="193" selection-end-column="599" />
         </state>
       </provider>
     </entry>
